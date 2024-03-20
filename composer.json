@@ -1,0 +1,21 @@
+{
+    "name": "lazarclaudiu/apiservice",
+    "description": "Demo package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lazarclaudiu\\Apiservice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claudiu Dorin Lazar"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
