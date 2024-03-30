@@ -8,9 +8,9 @@ class UserDTO implements JsonSerializable
 {
     public function __construct(
         private int $id,
-        private string $email,
-        private string $firstName,
-        private string $lastName,
+        private ?string $email = null,
+        private ?string $firstName = null,
+        private ?string $lastName = null,
         private ?string $avatar = null
     ) {
     }

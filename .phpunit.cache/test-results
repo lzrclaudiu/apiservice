@@ -1,1 +1,0 @@
-{"version":1,"defects":{"UserServiceTest::testGetUserById":8,"ApiService\\Tests\\UserServiceTest::testGetUserById":5},"times":{"UserServiceTest::testGetUserById":0.005,"ApiService\\Tests\\UserServiceTest::testGetUserById":0.004}}
